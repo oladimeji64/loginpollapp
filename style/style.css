@@ -1,0 +1,170 @@
+/* Re-usable code  and default styling*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    content: "";
+}
+
+html {
+    font: 100%;
+}
+
+
+/*Body styling */
+
+body {
+    display: block;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* Backgorund image default styles */
+
+div#bgimg img {
+    width: 100%;
+    height: auto;
+    filter: blur(4px);
+    z-index: -100;
+    position: relative;
+    background-size: cover;
+}
+
+
+/* Logo styles */
+
+[id*="logo_name"] {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+div#logo {
+    position: absolute;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+
+/* Logo name poll style */
+
+div#logo_name_a {
+    position: absolute;
+    font-weight: bolder;
+}
+
+
+/* Logo name app style */
+
+div#logo_name_b {
+    position: absolute;
+}
+
+
+/* User input stylex */
+
+div#data {
+    position: absolute;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: 0px solid transparent;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: white;
+}
+
+input[type="text"]:active,
+input[type="password"]:active {
+    background-color: rgb(255, 255, 255);
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: rgb(113, 218, 44);
+    outline: none;
+    position: absolute;
+}
+
+input[type="submit"]:active {
+    background-color: white;
+    color: rgb(113, 218, 44);
+}
+
+span {
+    position: absolute;
+    color: green;
+}
+
+
+/* Recover password styles */
+
+p#fg_pwd {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+p#fg_pwd a#fg_pwd_link {
+    padding: 0%;
+    margin: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+/* Social plugin login styles */
+
+p#social {
+    color: white;
+    position: absolute;
+}
+
+div#social_log {
+    padding: 0px;
+    margin: 0%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+}
+
+div#social_log>a {
+    text-decoration: none;
+}
+
+div#social_log>a:active {
+    background-color: rgb(110, 184, 42);
+}
+
+
+/* Footer style and developer name style */
+
+footer {
+    display: block;
+    position: absolute;
+    color: black;
+}

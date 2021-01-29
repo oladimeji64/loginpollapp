@@ -1,0 +1,681 @@
+/* Responsiveness styles for screen types */
+
+
+/* Small mobile screen styles */
+
+@media screen and (max-width:320px) {
+    div#logo {
+        width: 45%;
+        height: 145px;
+        transform: translate(90px, 20px);
+        box-shadow: inset 20px 10px 20px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        transform: translate(14px, 40px);
+        font-size: 2.8em;
+    }
+    div#logo_name_b {
+        font-size: 2em;
+        transform: translate(80px, 80px);
+    }
+    div#data {
+        margin: 0;
+        padding: 5px;
+        transform: translate(1px, 175px);
+        border-radius: 20px;
+    }
+    div#data form {
+        padding: 0;
+        margin: 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 15px;
+        padding: 15px 20px;
+        height: 15px;
+        font-size: 1em;
+        border-bottom: 3px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        border: 5px solid rgb(113, 218, 44);
+        padding: 5px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 1.4em;
+        transform: translate(100px, 20px);
+    }
+    span {
+        font-size: 1.4em;
+        transform: translate(50px, 20px);
+    }
+    p#fg_pwd {
+        transform: translateY(-200px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.2em;
+    }
+    p#social {
+        font-size: 2em;
+        text-shadow: 5px 5px 5px black;
+        transform: translate(70px, -180px);
+    }
+    div#social_log {
+        font-size: 1.5em;
+        transform: translateY(-130px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        text-transform: lowercase;
+        display: inline-flex;
+        padding: 10px 5px;
+    }
+    footer {
+        transform: translate(40px, -30px);
+    }
+}
+
+
+/* Medium mobile screen styles */
+
+@media screen and (min-width:375px) {
+    div#logo {
+        width: 45%;
+        height: 170px;
+        background-color: rgba(114, 218, 44, 0.144);
+        transform: translate(100px, 30px);
+        box-shadow: inset 20px 10px 20px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        transform: translate(10px, 40px);
+        font-size: 3.4em;
+    }
+    div#logo_name_b {
+        font-size: 2.5em;
+        transform: translate(90px, 90px);
+    }
+    div#data {
+        margin: 0;
+        padding: 10px 30px;
+        transform: translate(30px, 210px);
+        border-radius: 30px;
+    }
+    div#data form {
+        padding: 0;
+        margin: 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 15px 10px;
+        padding: 25px 10px;
+        height: 30px;
+        font-size: 1em;
+        border-bottom: 4px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        background-color: rgb(113, 218, 44);
+        border: 5px solid rgb(113, 218, 44);
+        padding: 10px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 1.3em;
+        transform: translate(70px, 30px);
+    }
+    span {
+        transform: translate(45px, 30px);
+        font-size: 1.4em;
+    }
+    p#fg_pwd {
+        transform: translateY(-250px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.3em;
+    }
+    p#social {
+        font-size: 2.5em;
+        text-shadow: 5px 5px 5px black;
+        transform: translate(90px, -210px);
+    }
+    div#social_log {
+        font-size: 1.3em;
+        transform: translateY(-150px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        display: inline-flex;
+        padding: 20px 20px;
+    }
+    footer {
+        transform: translate(70px, -30px);
+    }
+}
+
+
+/* Large mobile screen styles */
+
+@media screen and (min-width:425px) {
+    div#logo {
+        width: 45%;
+        height: 190px;
+        background-color: rgba(114, 218, 44, 0.144);
+        transform: translate(120px, 30px);
+        box-shadow: inset 20px 10px 20px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        transform: translate(13px, 45px);
+        font-size: 3.8em;
+    }
+    div#logo_name_b {
+        font-size: 2.5em;
+        transform: translate(112px, 100px);
+    }
+    div#data {
+        margin: 0;
+        padding: 10px 30px;
+        transform: translate(50px, 210px);
+        border-radius: 30px;
+    }
+    div#data form {
+        padding: 0;
+        margin: 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 15px 10px;
+        padding: 25px 20px;
+        height: 30px;
+        font-size: 1em;
+        border-bottom: 4px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        background-color: rgb(113, 218, 44);
+        border: 5px solid rgb(113, 218, 44);
+        padding: 10px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 1.3em;
+        transform: translate(80px, 20px);
+    }
+    span {
+        transform: translate(45px, 30px);
+        font-size: 1.4em;
+    }
+    p#fg_pwd {
+        transform: translateY(-250px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.3em;
+    }
+    p#social {
+        font-size: 2.5em;
+        text-shadow: 5px 5px 5px black;
+        transform: translate(90px, -210px);
+    }
+    div#social_log {
+        font-size: 1.5em;
+        transform: translateY(-150px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        display: inline-flex;
+        padding: 10px 20px;
+        /* padding: 10px 10px; */
+    }
+    footer {
+        transform: translate(70px, -30px);
+    }
+}
+
+@media screen and (min-width:600px) {
+    div#logo {
+        width: 35%;
+        height: 210px;
+        background-color: rgba(114, 218, 44, 0.144);
+        transform: translate(200px, 150px);
+        box-shadow: inset 20px 10px 20px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        transform: translate(20px, 60px);
+        font-size: 4em;
+    }
+    div#logo_name_b {
+        font-size: 3em;
+        transform: translate(110px, 115px);
+    }
+    div#data {
+        margin: 0;
+        padding: 40px;
+        transform: translate(80px, 400px);
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.308);
+        box-shadow: 10px 10px 15px black;
+    }
+    div#data form {
+        padding: 0;
+        margin: 0;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 15px 10px;
+        padding: 40px;
+        font-size: 1.2em;
+        border-bottom: 4px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        padding: 15px;
+        margin: 0;
+        font-size: 1.5em;
+        transform: translate(90px, 60px);
+    }
+    span {
+        transform: translate(60px, 50px);
+        font-size: 1.5em;
+    }
+    p#fg_pwd {
+        transform: translateY(-330px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.5em;
+    }
+    p#social {
+        font-size: 3em;
+        text-shadow: 5px 5px 5px black;
+        transform: translate(150px, -300px);
+    }
+    div#social_log {
+        font-size: 1.8em;
+        transform: translateY(-210px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        display: inline-flex;
+        padding: 20px 38px;
+    }
+    footer {
+        display: block;
+        position: absolute;
+        transform: translate(160px, -50px);
+    }
+}
+
+
+/* Tablet screen styles */
+
+@media screen and (min-width:768px) {
+    div#logo {
+        width: 52%;
+        height: 400px;
+        transform: translate(200px, 100px);
+        background-color: rgba(114, 218, 44, 0.144);
+        box-shadow: inset 40px 20px 40px rgb(18, 37, 4), inset 20px -40px 40px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        transform: translate(30px, 90px);
+        font-size: 8em;
+    }
+    div#logo_name_b {
+        transform: translate(260px, 210px);
+        font-size: 4.5em;
+    }
+    div#data {
+        margin: 0;
+        padding: 70px;
+        transform: translate(140px, 600px);
+        border-radius: 30px;
+        background-color: rgba(0, 0, 0, 0.308);
+        box-shadow: 10px 10px 15px black;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 20px 10px;
+        padding: 40px;
+        width: 100%;
+        font-size: 1.4em;
+        border-bottom: 4px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        border: 5px solid rgb(113, 218, 44);
+        padding: 15px;
+        margin: 0;
+        font-size: 1.5em;
+        transform: translate(100px, 100px);
+    }
+    span {
+        transform: translate(70px, 45px);
+    }
+    p#fg_pwd {
+        transform: translateY(-350px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 2em;
+    }
+    p#social {
+        font-size: 4em;
+        text-shadow: 7px 7px 7px black;
+        transform: translate(180px, -280px);
+    }
+    div#social_log {
+        font-size: 2.3em;
+        transform: translateY(-180px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        display: block;
+        padding: 10px 15px;
+    }
+    footer {
+        display: block;
+        position: absolute;
+        transform: translate(260px, -50px);
+    }
+}
+
+
+/* Laptop screen styles */
+
+@media screen and (min-width:992px) {
+    div#logo {
+        height: 500px;
+        width: 50%;
+        transform: translate(260px, 100px);
+    }
+    div#logo_name_a {
+        transform: translate(25px, 120px);
+        font-size: 10em;
+    }
+    div#logo_name_b {
+        transform: translate(280px, 270px);
+        font-size: 7em;
+    }
+    div#data {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+        height: 600px;
+        transform: translate(100px, 700px);
+        border-radius: 30px;
+        box-shadow: 10px 10px 15px black;
+    }
+    form#form_data {
+        width: 80%;
+        margin: 50px 30px;
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 60px;
+        font-size: 2em;
+        border-bottom: 4px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 40%;
+        border: 5px solid rgb(113, 218, 44);
+        padding: 15px;
+        margin: 0;
+        border-radius: 30px;
+        font-size: 1.5em;
+        transform: translate(220px, 40px);
+    }
+    span {
+        transform: translate(150px, 80px);
+    }
+    p#fg_pwd {
+        transform: translateY(-530px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 3em;
+    }
+    p#social {
+        font-size: 5.5em;
+        text-shadow: 7px 7px 7px black;
+        transform: translate(250px, -450px);
+    }
+    div#social_log {
+        font-size: 3em;
+        transform: translateY(-310px);
+    }
+    div#social_log>a i {
+        color: rgb(48, 107, 9);
+        display: block;
+        padding: 10px 15px;
+    }
+    footer {
+        transform: translate(350px, -70px);
+    }
+}
+
+
+/* Laptop with touch and laptop with MDPI screen */
+
+@media screen and (min-width:1200px) {
+    div.container {
+        position: relative;
+        background-image: url(../backgroundImage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 25%;
+        height: 670px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 0;
+        border: 5px solid rgb(61, 60, 60);
+        border-radius: 50px;
+        box-shadow: -5px 5px 15px 10px black, 10px -10px 10px black;
+    }
+    div.container::before {
+        width: 60%;
+        height: 20px;
+        left: 19%;
+        right: 0;
+        top: 0;
+        position: absolute;
+        background-color: black;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        z-index: 1;
+    }
+    div.container::after {
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    div#bgimg img {
+        display: none;
+    }
+    div#logo {
+        transform: translate(70px, 30px);
+        width: 50%;
+        height: 150px;
+        background-color: rgba(87, 177, 27, 0.404);
+        box-shadow: inset 15px 10px 15px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        font-size: 2.9em;
+        transform: translate(10px, 40px);
+    }
+    div#logo_name_b {
+        font-size: 1.5em;
+        font-weight: bolder;
+        transform: translate(87px, 85px);
+    }
+    div#data {
+        margin: 0;
+        padding: 0;
+        height: 120px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.808);
+        transform: translate(30px, 195px);
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 15px 20px;
+        padding: 0;
+        font-size: 1em;
+        border-bottom: 3.5px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 50%;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 5px 15px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 1.5em;
+        font-weight: bolder;
+        transform: translate(55px, 10px);
+    }
+    span {
+        transform: translate(35px, 20px);
+        font-size: 1em;
+    }
+    p#fg_pwd {
+        transform: translateY( 380px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.5em;
+    }
+    p#social {
+        font-size: 2em;
+        color: black;
+        text-shadow: 1px 1px 2px black;
+        transform: translate(55px, 400px);
+    }
+    div#social_log {
+        font-size: 1.8em;
+        transform: translateY(450px);
+    }
+    div#social_log>a i {
+        color: black;
+        display: block;
+        padding: 10px 5px;
+    }
+    footer {
+        transform: translate(10px, 590px);
+        font-size: 1.1em;
+    }
+}
+
+
+/* Large laptop screen styles and laptop with HiDPI screen  */
+
+@media screen and (min-width:1366px) {
+    div.container {
+        position: relative;
+        background-image: url(../backgroundImage.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 25%;
+        height: 670px;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 0;
+        border: 5px solid rgb(61, 60, 60);
+        border-radius: 50px;
+        box-shadow: -5px 5px 15px 10px black, 10px -10px 10px black;
+    }
+    div.container::before {
+        width: 60%;
+        height: 20px;
+        background-color: black;
+        position: absolute;
+        left: 19%;
+        right: 0;
+        top: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        z-index: 1;
+    }
+    div.container::after {
+        width: 100%;
+        height: 45px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    div#bgimg img {
+        display: none;
+    }
+    div#logo {
+        transform: translate(70px, 30px);
+        width: 50%;
+        height: 170px;
+        background-color: rgba(87, 177, 27, 0.404);
+        box-shadow: inset 15px 10px 15px rgb(18, 37, 4), inset 2px -20px 10px rgb(102, 255, 0);
+    }
+    div#logo_name_a {
+        font-size: 3.3em;
+        transform: translate(13px, 40px);
+    }
+    div#logo_name_b {
+        font-size: 1.5em;
+        font-weight: bolder;
+        transform: translate(110px, 90px);
+    }
+    div#data {
+        margin: 0;
+        padding: 0;
+        height: 130px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.808);
+        transform: translate(30px, 210px);
+    }
+    input[type="text"],
+    input[type="password"] {
+        margin: 20px 25px;
+        padding: 0;
+        font-size: 1em;
+        border-bottom: 3.5px solid rgb(65, 161, 0);
+    }
+    input[type="submit"] {
+        width: 50%;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 5px 15px;
+        margin: 0;
+        border-radius: 10px;
+        font-size: 1.5em;
+        font-weight: bolder;
+        transform: translate(70px, 3px);
+    }
+    span {
+        transform: translate(45px, 20px);
+        font-size: 1em;
+    }
+    p#fg_pwd {
+        transform: translateY( 400px);
+    }
+    p#fg_pwd a#fg_pwd_link {
+        font-size: 1.3em;
+    }
+    p#social {
+        font-size: 2.2em;
+        color: black;
+        text-shadow: 1px 1px 2px black;
+        transform: translate(70px, 420px);
+    }
+    div#social_log {
+        font-size: 1.8em;
+        transform: translateY(450px);
+    }
+    div#social_log>a i {
+        color: black;
+        text-transform: lowercase;
+        display: block;
+        padding: 15px 15px;
+    }
+    footer {
+        transform: translate(15px, 590px);
+        font-size: 1.2em;
+    }
+}
